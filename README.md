@@ -21,6 +21,13 @@ And of course thanks to u/[EtteGit](https://github.com/EtteGit) for the awesome 
 
  <img src="Images/Cutter1.jpg" width=49% >  <img src="Images/Cutter2.jpg" width=49% >
 
+ #### Cutter Action:
+ 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=-_qIqNOiTIw
+" target="_blank"><img src="Images/yt.png" 
+alt="Cutter Preview" width="32%" border="10" /></a>
+ 
+
 ### BOM
 
 | Qty | Part | Description 
