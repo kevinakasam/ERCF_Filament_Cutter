@@ -40,7 +40,6 @@ alt="Cutter Preview" width="32%" border="10" /></a>
 ### To-Do
 - Move blade a little so the screw can't collide with the PCB
 - Mirror the cutter so the cutting force doesn't act against the screw thread on the servo arm (can't unscrew itself)
-- Fixed an overhang issue with the `Servo_Mount.stl`
 
 ### Klipper Stuff
 
@@ -125,3 +124,4 @@ gcode:
 
 30/09/2023: Blinky Support
 - Adaption of the Blinky chart for the cutter - made by u/[BioKeks](https://github.com/BioCookieYT)
+- Fixed an overhang issue with the `Servo_Mount.stl`
