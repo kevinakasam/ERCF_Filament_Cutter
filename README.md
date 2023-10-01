@@ -122,6 +122,10 @@ gcode:
 
 ### Changelog
 
-30/09/2023: Blinky Support
-- Adaption of the Blinky chart for the cutter - made by u/[BioKeks](https://github.com/BioCookieYT)
+30/09/2023: Binky Support
+- Adaption of the Binky chart for the cutter - made by u/[BioKeks](https://github.com/BioCookieYT)
 - Fixed an overhang issue with the `Servo_Mount.stl`
+  
+01/10/2023: [Triple-Decky](https://github.com/gneu42/Triple-Decky/tree/main) Support
+- Adaption of the Binky chart for the 3PS version - made by u/[BioKeks](https://github.com/BioCookieYT)
+
