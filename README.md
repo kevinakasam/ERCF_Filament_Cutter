@@ -129,3 +129,6 @@ gcode:
 01/10/2023: [Triple-Decky](https://github.com/gneu42/Triple-Decky/tree/main) Support
 - Adaption of the Binky chart for the 3PS version - made by u/[BioKeks](https://github.com/BioCookieYT)
 
+10/10/2023: Bowden Tube Adjustment
+- Improved bowden tube fit by adjusting the encoder - Thanks for the feedback u/[xF4m3](https://github.com/xF4m3)  
+- Fixed an overhang issue with the `Encoder_Cart_Left.stl` - made by u/[BioKeks](https://github.com/BioCookieYT)
