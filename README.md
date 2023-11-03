@@ -38,7 +38,8 @@ alt="Cutter Preview" width="32%" border="10" /></a>
 | ... | ... | I will add more later but it's just some screws, inserts and washers |
 
 ### To-Do
-- Move blade a little so the screw can't collide with the PCB
+- ~~Move blade a little so the screw can't collide with the PCB~~
+- Add a description for Beta 5
 - Mirror the cutter so the cutting force doesn't act against the screw thread on the servo arm (can't unscrew itself)
 
 ### Klipper Stuff
