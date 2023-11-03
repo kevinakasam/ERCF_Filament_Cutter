@@ -124,12 +124,16 @@ gcode:
 ### Changelog
 
 30/09/2023: Binky Support
-- Adaption of the Binky chart for the cutter - made by u/[BioKeks](https://github.com/BioCookieYT)
+- Adaption of the Binky encoder for the cutter - made by u/[BioKeks](https://github.com/BioCookieYT)
 - Fixed an overhang issue with the `Servo_Mount.stl`
   
 01/10/2023: [Triple-Decky](https://github.com/gneu42/Triple-Decky/tree/main) Support
-- Adaption of the Binky chart for the 3PS version - made by u/[BioKeks](https://github.com/BioCookieYT)
+- Adaption of the Binky encoder for the 3PS version - made by u/[BioKeks](https://github.com/BioCookieYT)
 
 10/10/2023: Bowden Tube Adjustment
 - Improved bowden tube fit by adjusting the encoder - Thanks for the feedback u/[xF4m3](https://github.com/xF4m3)  
 - Fixed an overhang issue with the `Encoder_Cart_Left.stl` - made by u/[BioKeks](https://github.com/BioCookieYT)
+
+03/11/2023: Beta5 Release
+- Overhauled the cutter design for more cutting power and reliability
+- Adaption of the Binky encoder for Beta5 - made by u/[BioKeks](https://github.com/BioCookieYT)
