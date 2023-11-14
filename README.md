@@ -11,6 +11,8 @@ I never thought about a filament cutter untill I saw the [Filametrix](https://gi
 
 Thanks to u/[BioKeks](https://github.com/BioCookieYT) for tinkering with me! Luckily we both got the ERCF roughly at the same time :D
 
+Thanks to u/[xF4m3](https://github.com/xF4m3) for the Macro help!
+
 Thanks to u/[sorted01](https://github.com/sorted01) for the idea with the cutter!
 
 Thanks to u/[moggieuk](https://github.com/moggieuk) for the [awesome firmware](https://github.com/moggieuk/Happy-Hare/tree/23604442613be6bbbc8c70f57ff55fe65b1268e4) and the quick help on the Voron Discord!
@@ -44,8 +46,29 @@ alt="Cutter Preview" width="32%" border="10" /></a>
 
 ### Klipper Stuff
 
-I'm using the awesome [Happy Hare](https://github.com/moggieuk/Happy-Hare) firmware for the ERCF. I'm sure this also works with the stock macros, but I haven't tried that. In addition, the Happy Hare `[mmu_servo]` works a lot better than the stock `[servo]` from Klipper. I added a file named `mmu_ercf_cutter.cfg` in the ` /config/mmu/optional` to implement it with a `[include mmu/optional/mmu_ercf_cutter.cfg]`. 
-Note: The Macros aren't done yet and aren't working as expected.
+I'm using the awesome [Happy Hare](https://github.com/moggieuk/Happy-Hare) firmware for the ERCF. I'm sure this also works with the stock macros, but I haven't tried that. In addition, the Happy Hare `[mmu_servo]` works a lot better than the stock `[servo]` from Klipper. 
+
+#### Changes to mmu_software.cfg
+
+If the `[gcode_macro _MMU_POST_UNLOAD]` section isnt yet defined in your `mmu_sotware.cfg` simply copy the whole following block into the file (there's already a section with un-loading macros). If it's already there just paste the `CUTTER_ACTION` Macro there
+
+```
+# Callback macros for modifying Happy Hare behavour
+# This occurs after unloading filament on a toolchange
+#
+# This can be used for the Filament Cutter
+# Note that restoration to original toolhead position is ensured by Happy Hare.
+#
+[gcode_macro _MMU_POST_UNLOAD]
+description: Optional post unload routine for filament change
+gcode:
+    CUTTER_ACTION
+```
+
+#### Cutter config
+
+Add this to your config. I added a file named `mmu_ercf_cutter.cfg` in the ` /config/mmu/optional` to implement it with a `[include mmu/optional/mmu_ercf_cutter.cfg]`. 
+Note: The Macros aren't done yet ~~and aren't working as expected~~.
 
 ```
 [mmu_servo cut_servo]         #`mmu_servo` only for the Happy Hare firmware, otherwise only `servo`
@@ -61,10 +84,13 @@ description: Empty macro to store the variables
 variable_servo_closed_angle: 70          #Adapt these for your setup
 variable_servo_open_angle: 10            #Adapt these for your setup
 variable_servo_blocked_angle: 40         #I have the idea to home the filament against the cutter by blocking the filament path with 1/2 of the servo rotation. Could make cuts more precise
-variable_servo_idle_time: 1000           #Time to let the servo reach it's position, in milliseconds (1 second = 1000 milliseconds)
+variable_servo_idle_time: 500            #Time to let the servo reach it's position, in milliseconds (1 second = 1000 milliseconds)
 
-### Feed lengths
+### Feed length
+variable_feed_length: 48                 #Rough estimation of the parking position to the outside of the encoder
 variable_cut_length: 10                  #How much you want to cut off in mm
+variable_cut_amount: 1                   #Number of times the cutter tries to cut the filament
+
 gcode:
 
 
@@ -101,24 +127,44 @@ gcode:
     M400
     G4 P0
 
+# New Cutter Action Macro - thanks to xF4m3
 [gcode_macro CUTTER_Action]
 description: Set Servo in the close position. Doesn't work properly yet.
 gcode:
     {% set cutvar = printer["gcode_macro _CUT_VAR"] %}
-
-    MMU_SERVO POS=down
+    
     CUTTER_OPEN
-    MMU_TEST_MOVE MOVE={44 + cutvar.cut_length} #Rough estimation of the parking position to the outout of the encoder + the cut length
-    CUTTER_CLOSE
-    CUTTER_OPEN
-    CUTTER_CLOSE
-    CUTTER_OPEN
+    MMU_TEST_MOVE MOVE={cutvar.feed_length + cutvar.cut_length}
+    _MMU_STEP_SET_FILAMENT STATE=1              # To make MMU_EJECT work/think that it has filament loaded
+    {% for i in range(cutvar.cut_amount) %}
+      CUTTER_CLOSE
+      CUTTER_OPEN
+    {% endfor %}
     MMU_TEST_MOVE MOVE=-1
     CUTTER_CLOSE
     MMU_EJECT
-    #MMU_SERVO POS=down
     M400
     G4 P0
+
+## Old Cutter Action Macro
+#[gcode_macro CUTTER_Action]
+#description: Set Servo in the close position. Doesn't work properly yet.
+#gcode:
+#    {% set cutvar = printer["gcode_macro _CUT_VAR"] %}
+#
+#    MMU_SERVO POS=down
+#    CUTTER_OPEN
+#    MMU_TEST_MOVE MOVE={44 + cutvar.cut_length} #Rough estimation of the parking position to the outout of the encoder + the cut length
+#    CUTTER_CLOSE
+#    CUTTER_OPEN
+#    CUTTER_CLOSE
+#    CUTTER_OPEN
+#    MMU_TEST_MOVE MOVE=-1
+#    CUTTER_CLOSE
+#    MMU_EJECT
+#    #MMU_SERVO POS=down
+#    M400
+#    G4 P0
 ```
 
 ### Changelog
