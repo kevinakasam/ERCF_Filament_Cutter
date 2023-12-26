@@ -183,3 +183,6 @@ gcode:
 03/11/2023: Beta5 Release
 - Overhauled the cutter design for more cutting power and reliability
 - Adaption of the Binky encoder for Beta5 - made by u/[BioKeks](https://github.com/BioCookieYT)
+
+23/12/2023: ERCF2.0 Release
+- Adaption for the new ERCF2.0 Encoder - made by u/[BioKeks](https://github.com/BioCookieYT)
