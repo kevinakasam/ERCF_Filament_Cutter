@@ -127,7 +127,7 @@ gcode:
     M400
     G4 P0
 
-# New Cutter Action Macro - thanks to xF4m3
+# New Cutter Action Macro - thanks to xF4m3 and moggieuk <3
 [gcode_macro CUTTER_Action]
 description: Set Servo in the close position. Doesn't work properly yet.
 gcode:
@@ -135,16 +135,20 @@ gcode:
     
     CUTTER_OPEN
     MMU_TEST_MOVE MOVE={cutvar.feed_length + cutvar.cut_length}
-    _MMU_STEP_SET_FILAMENT STATE=1              # To make MMU_EJECT work/think that it has filament loaded
     {% for i in range(cutvar.cut_amount) %}
       CUTTER_CLOSE
       CUTTER_OPEN
     {% endfor %}
     MMU_TEST_MOVE MOVE=-1
     CUTTER_CLOSE
-    MMU_EJECT
+    
+   _MMU_STEP_SET_FILAMENT STATE=1 
+   _MMU_STEP_UNLOAD_GATE
+   
     M400
     G4 P0
+   
+
 
 ## Old Cutter Action Macro
 #[gcode_macro CUTTER_Action]
@@ -183,6 +187,8 @@ gcode:
 03/11/2023: Beta5 Release
 - Overhauled the cutter design for more cutting power and reliability
 - Adaption of the Binky encoder for Beta5 - made by u/[BioKeks](https://github.com/BioCookieYT)
+
+
 
 23/12/2023: ERCF2.0 Release
 - Adaption for the new ERCF2.0 Encoder - made by u/[BioKeks](https://github.com/BioCookieYT)
