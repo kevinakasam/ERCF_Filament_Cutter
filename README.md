@@ -1,4 +1,14 @@
-# Filament Cutter for the ERCF
+
+
+ <img src="Images/Banner.png" width=100% >  
+
+# Enraged Rabbit Encoder Cutter
+<p align="center">
+  <a aria-label="Stars" href="SOMETHING"><img src="https://img.shields.io/github/stars/kevinakasam/ERCF_Filament_Cutter?style=flat-square"></a> &nbsp;
+  <a aria-label="Forks" href="SOMETHING"><img src="https://img.shields.io/github/forks/Enraged-Rabbit-Community/ERCF_v2?style=flat-square"></a> &nbsp;
+  <a aria-label="License" href="SOMETHING"><img src="https://img.shields.io/github/license/kevinakasam/ERCF_Filament_Cutter"></a> &nbsp;
+  <a aria-label="Commits" href="SOMETHING"><img src="https://img.shields.io/github/commit-activity/y/kevinakasam/ERCF_Filament_Cutter"></a> &nbsp;
+</p>
 
 This is a simple filament cutter for the awesome ERCF so tip tuning is less important.
 
@@ -188,7 +198,8 @@ gcode:
 - Overhauled the cutter design for more cutting power and reliability
 - Adaption of the Binky encoder for Beta5 - made by u/[BioKeks](https://github.com/BioCookieYT)
 
-
-
 23/12/2023: ERCF2.0 Release
 - Adaption for the new ERCF2.0 Encoder - made by u/[BioKeks](https://github.com/BioCookieYT)
+
+XX/XX/XXXX: Beta6 Release
+- XXX
