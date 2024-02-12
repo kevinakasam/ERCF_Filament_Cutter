@@ -14,7 +14,7 @@
 **[EREC](#erec)**<br>
 **[BOM](#bom)**<br>
 **[Firmware](#firmware)**<br>
-**[Showroom](#showroom)**<br>
+**[Showroom](#user-print-showroom)**<br>
 **[Acknowledgements](#acknowledgements)**<br>
 **[Changelog](#changelog)**<br>
 
@@ -38,6 +38,7 @@ I never thought about a filament cutter untill I saw the [Filametrix](https://gi
 | --- | --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 1 | [Servo MR996](https://amzn.eu/d/gEQACnZ) | That's just the servo I use, nothing special. But the MG90S are definetly too weak. 60° servos are fine, travel is limited by design anyways.                                 |
 | 1 | [Exacto knife blade No. 11](https://amzn.eu/d/0ZmUXIy) | That's just an example so you know the shape/type. I didn't test these! A higher quality blade probably last longer.                                                          |
+| 1 | 5V buck converter | The Servo can take quite a lot of current, enough to shut down my ERCF board. If you have the same problem try a buck converter wired to the PSU or use your dedicated 5V PSU |
 | ... | ... | I will add more later but it's just some screws, inserts and washers                                                                                                          |
 
 
@@ -69,7 +70,7 @@ Thanks to...
 
 * [moggieuk](https://github.com/moggieuk) for the [awesome firmware](https://github.com/moggieuk/Happy-Hare/tree/23604442613be6bbbc8c70f57ff55fe65b1268e4) and the quick help on the Voron Discord!
 
-And of course thanks to [EtteGit](https://github.com/EtteGit) for the awesome [EnragedRabbitProject](https://github.com/EtteGit/EnragedRabbitProject)!
+And of course thanks to [EtteGit](https://github.com/EtteGit) and the amazing ERCFV2 Team for the awesome [EnragedRabbitProject](https://github.com/EtteGit/EnragedRabbitProject)!
 
 ### Showroom 
 
@@ -77,10 +78,10 @@ And of course thanks to [EtteGit](https://github.com/EtteGit) for the awesome [E
  <img src="Images/Cutter1.jpg" width=49% >  <img src="Images/Cutter2.jpg" width=49% >
 
  #### Cutter Action:
-
+ 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=-_qIqNOiTIw
-" target="_blank"><img src="Images/yt.png"
-alt="Cutter Preview" width="32%" border="10" /></a>
+" target="_blank"><img src="Images/yt.png" 
+alt="Cutter Preview" width="32%" border="10" /></a> 
  
 
 
