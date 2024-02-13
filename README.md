@@ -9,6 +9,11 @@
   <a aria-label="Commits" href=""><img src="https://img.shields.io/github/commit-activity/y/kevinakasam/ERCF_Filament_Cutter"></a> &nbsp;
 </p>
 
+
+
+### Attention!
+<strong> I’m not an expert and 3D printing is just my hobby. So please be careful when you build this mod and don’t just go ahead. All parts are tested and working. But everybody bears the risks of a modification him/herself! I'm not responsible if any harm occurs, so be careful, especially with the knife! </strong>
+
 ## Overview
 
 **[EREC](#erec)**<br>
@@ -17,8 +22,6 @@
 **[Showroom](#user-print-showroom)**<br>
 **[Acknowledgements](#acknowledgements)**<br>
 **[Changelog](#changelog)**<br>
-
-
 ## EREC
 
 This is a simple filament cutter for the awesome ERCF so tip tuning is less important.
@@ -28,18 +31,19 @@ It's made out of a Servo and a scalpell/exacto knife blade. The cutter get's mou
 #### Why?
 I never thought about a filament cutter untill I saw the [Filametrix](https://github.com/sorted01/Filametrix) design / got it recommended. Since I'm not using the ERCF with a Stealthburner (for now at least) I would have to make a cutter on my own. At the same time u/[BioKeks](https://github.com/BioCookieYT) requested a cutter for my Ender 3 fan duct ([Frankenstein 2.0](https://github.com/kevinakasam/FrankEnstein-Duct/tree/main/Frank2.0_Beta)) and that way I though we need something universial. After some days of tinkering this was the result - first with the MG90s servo, but that was so weak it was far aways from cutting it. So long speech short, thanks to [sorted01](https://github.com/sorted01) for the idea with the cutter!
 
-![](Images/Render.png)
+#### Current Status
+Considering my other ongoing [projects](https://kevinakasam.com/), I’ve decided to appoint u/[BioKeks](https://github.com/BioCookieYT) as the new primary contributor to this project. Don’t worry, I’m not completely stepping away, but if you have any questions, feel free to ask u/[BioKeks](https://github.com/BioCookieYT).![](Images/Render.png)
 
 
 
 ### BOM
 
-| Qty | Part | Description                                                                                                                                                                   
-| --- | --- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 | [Servo MR996](https://amzn.eu/d/gEQACnZ) | That's just the servo I use, nothing special. But the MG90S are definetly too weak. 60° servos are fine, travel is limited by design anyways.                                 |
-| 1 | [Exacto knife blade No. 11](https://amzn.eu/d/0ZmUXIy) | That's just an example so you know the shape/type. I didn't test these! A higher quality blade probably last longer.                                                          |
-| 1 | 5V buck converter | The Servo can take quite a lot of current, enough to shut down my ERCF board. If you have the same problem try a buck converter wired to the PSU or use your dedicated 5V PSU |
-| ... | ... | I will add more later but it's just some screws, inserts and washers                                                                                                          |
+| Qty | Part | Description                                                                                                                                                                      
+| --- | --- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1 | [Servo MR996](https://amzn.eu/d/gEQACnZ) | That's just the servo I use, nothing special. But the MG90S are definetly too weak. 60° may work, but I highly recommend getting at least a 90° servo.   Also check the torque, u/[BioKeks](https://github.com/BioCookieYT) was't able to cut soft PLA with a 12kg.cm servo
+| 1 | [Exacto knife blade No. 11](https://amzn.eu/d/0ZmUXIy) | That's just an example so you know the shape/type. I didn't test these! A higher quality blade probably last longer.                                                             |
+| 1 | 5V buck converter | The Servo can take quite a lot of current, enough to shut down my ERCF board. If you have the same problem try a buck converter wired to the PSU or use your dedicated 5V PSU    |
+| ... | ... | I will add more later but it's just some screws, inserts and washers                                                                                                             |
 
 
 
