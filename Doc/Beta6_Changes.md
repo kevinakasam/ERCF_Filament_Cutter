@@ -1,4 +1,4 @@
-[# Beta6 Changes 🥕]()
+# Beta6 Changes 🥕
 
 - Helical gearing with a higher module to prevent slipping
 From my testing the gears work a lot better then the Beta 5 ones, had not a single slip during my testing 
