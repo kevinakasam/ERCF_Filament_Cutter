@@ -18,6 +18,7 @@
 
 **[EREC](#erec)**<br>
 **[BOM](#bom)**<br>
+**[Assembly](#assembly)**<br>
 **[Firmware](#firmware)**<br>
 **[Showroom](#user-print-showroom)**<br>
 **[Acknowledgements](#acknowledgements)**<br>
@@ -32,20 +33,42 @@ It's made out of a Servo and a scalpell/exacto knife blade. The cutter get's mou
 I never thought about a filament cutter untill I saw the [Filametrix](https://github.com/sorted01/Filametrix) design / got it recommended. Since I'm not using the ERCF with a Stealthburner (for now at least) I would have to make a cutter on my own. At the same time u/[BioKeks](https://github.com/BioCookieYT) requested a cutter for my Ender 3 fan duct ([Frankenstein 2.0](https://github.com/kevinakasam/FrankEnstein-Duct/tree/main/Frank2.0_Beta)) and that way I though we need something universial. After some days of tinkering this was the result - first with the MG90s servo, but that was so weak it was far aways from cutting it. So long speech short, thanks to [sorted01](https://github.com/sorted01) for the idea with the cutter!
 
 #### Current Status
-Considering my other ongoing [projects](https://kevinakasam.com/), I’ve decided to appoint u/[BioKeks](https://github.com/BioCookieYT) as the new primary contributor to this project. Don’t worry, I’m not completely stepping away, but if you have any questions, feel free to ask u/[BioKeks](https://github.com/BioCookieYT).![](Images/Render.png)
-
+Considering my other ongoing [projects](https://kevinakasam.com/), I’ve decided to appoint u/[BioKeks](https://github.com/BioCookieYT) as the new primary contributor to this project. Don’t worry, I’m not completely stepping away, but if you have any questions, feel free to ask u/[BioKeks](https://github.com/BioCookieYT)!
+<br>
+<img src="Images/EREC_Beta6.png" width=100%>
 
 
 ### BOM
+| **Qty** |                               **Part**                               |                                                                                                                               **Description**                                                                                                                               |
+|:-------:|:--------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|    1    |               [Servo MR996](https://amzn.eu/d/gEQACnZ)               | That's just the servo I use, nothing special. But the MG90S are definetly too weak. 60° may work, but I highly recommend getting at least a 90° servo.   Also check the torque, u/[BioKeks](https://github.com/BioCookieYT) was't able to cut soft PLA with a 12kg.cm servo |
+|    1    |        [Exacto knife blade No. 11](https://amzn.eu/d/0ZmUXIy)        |                                                                                        That's just an example so you know the shape/type. Higher quality blades probably last longer.                                                                                       |
+|    1    | [5V buck converter](https://de.aliexpress.com/item/32730909898.html) |                                                The Servo can take quite a lot of current, enough to shut down my ERCF board. If you have the same problem try a buck converter wired to the PSU or use your dedicated 5V PSU                                                |
+|    10   |                          M3 Threaded Insert                          |                                                                                                      Just the same inserts you already used during the ERCF assembly 😉                                                                                                      |
+|    1    |                              M3 lock nut                             |                                                                                                       To prevent the screw on the cutter_arm to be loosened over time                                                                                                       |
+|    3    |                               M3 washer                              |                                                                                                    Use some washers to screw in the cutter_arm and the servo_hinge_mount                                                                                                    |
+|    1    |                               M3x6 SHCS                              |                                                                                                                         Used to mount the cutter arm                                                                                                                        |
+|    4    |                               M3x6 SHCS                              |                                                                                                         These are used to mount the servo motor on the printed part                                                                                                         |
+|    1    |                               M3x6 BHSC                              |                                                                            This screw comes usually with your servo motor, its used to mount the servo_arm on the servo. SHCS probably works also                                                                           |
+|    2    |                              M2.5x6 SHCS                             |                                       To mount the knife to the arm you will need some M2.5 screws, it doesn't matter if they are longer than 6mm. Pro tip: Check out your hotend assembly kit, it often ships with some M2.5 screws                                        |
+|    4    |                               M2x6 SHCS                              |                                      These screws are used to lock the servo attachment with the printed part. Screw length can vary a bit, if you don't have any laying around I recommend getting a cheap M2-Screw kit on AliExpress                                      |
 
-| Qty | Part | Description                                                                                                                                                                      
-| --- | --- |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1 | [Servo MR996](https://amzn.eu/d/gEQACnZ) | That's just the servo I use, nothing special. But the MG90S are definetly too weak. 60° may work, but I highly recommend getting at least a 90° servo.   Also check the torque, u/[BioKeks](https://github.com/BioCookieYT) was't able to cut soft PLA with a 12kg.cm servo
-| 1 | [Exacto knife blade No. 11](https://amzn.eu/d/0ZmUXIy) | That's just an example so you know the shape/type. I didn't test these! A higher quality blade probably last longer.                                                             |
-| 1 | 5V buck converter | The Servo can take quite a lot of current, enough to shut down my ERCF board. If you have the same problem try a buck converter wired to the PSU or use your dedicated 5V PSU    |
-| ... | ... | I will add more later but it's just some screws, inserts and washers                                                                                                             |
+## Assembly
 
+<table>
+<tr>
+<td>
+The assembly process is straightforward; I’ve tried my best to keep it simple. If you need any help, feel free to join our discord server. 
+<p>
 
+[Assembly](Doc/EREC_Assembly.pdf) &nbsp;&nbsp; [Discord Server](https://discord.gg/Jw4frr64yV) &nbsp;&nbsp; [Discord Channel Link](https://discord.com/channels/964441223169449984/1169733100700434543)
+<td width=35%><img src="Images/Assembly.png"></td>
+</td>
+
+</tr>
+</table>
+
+<br>
 
 ## Firmware
 <table>
