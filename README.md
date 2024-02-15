@@ -113,6 +113,6 @@ alt="Cutter Preview" width="32%" border="10" /></a>
 #### 23/12/2023: ERCF2.0 Release
 - Adaption for the new ERCF2.0 Encoder - made by u/[BioKeks](https://github.com/BioCookieYT)
 
-#### XX/XX/XXXX: Beta6 Release
-**NOTE: Beta6 drops support for the old ERCFV1 Encoder**
-- XXX
+#### 15/02/2024: Beta6 Release
+**NOTE: Beta6 drops support for the ERCFV1**
+- TODO
