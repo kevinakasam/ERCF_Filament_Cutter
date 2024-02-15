@@ -115,4 +115,4 @@ alt="Cutter Preview" width="32%" border="10" /></a>
 
 #### 15/02/2024: Beta6 Release
 **NOTE: Beta6 drops support for the old ERCFV1**
-- [Changelog for Beta6](https://github.com/BioCookieYT](https://github.com/kevinakasam/ERCF_Filament_Cutter/blob/main/Doc/Beta6_Changes.md)https://github.com/kevinakasam/ERCF_Filament_Cutter/blob/main/Doc/Beta6_Changes.md)
+- [Changelog for Beta6](https://github.com/kevinakasam/ERCF_Filament_Cutter/blob/main/Doc/Beta6_Changes.md)
