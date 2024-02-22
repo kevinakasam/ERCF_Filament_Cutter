@@ -23,7 +23,7 @@ All mods should follow the [mod submission rules](https://github.com/VoronDesign
             └── ModName2/
                 ....
 
-You don't have to be fancy with the Readme, add a little description, BOM, some images and if needed some assembly instructions. You can find a template [here](). 
+You don't have to be fancy with the Readme, add a little description, BOM, some images and if needed some assembly instructions. You can find a template [here](https://github.com/kevinakasam/ERCF_Filament_Cutter/edit/main/Doc/template.md). 
 
 
 ## Submitting a PR
