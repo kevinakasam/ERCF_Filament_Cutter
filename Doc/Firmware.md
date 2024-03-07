@@ -2,6 +2,17 @@
 
 I'm using the awesome [Happy Hare](https://github.com/moggieuk/Happy-Hare) firmware for the ERCF. I'm sure this also works with the stock macros, but I haven't tried that. In addition, the Happy Hare `[mmu_servo]` works a lot better than the stock `[servo]` from Klipper.
 
+<br>
+
+## Happy Hare V2.5 or newer
+
+With [Happy Hare](https://github.com/moggieuk/Happy-Hare) 2.5 EREC became an official addon of the firmware. It is highly recommended setting EREC up this way, you can find more information [here](https://github.com/moggieuk/Happy-Hare/tree/main/config/addons#config)
+
+<br>
+<br>
+
+## Older Versions (deprecated)
+
 #### Changes to mmu_software.cfg
 
 If the `[gcode_macro _MMU_POST_UNLOAD]` section isnt yet defined in your `mmu_sotware.cfg` simply copy the whole following block into the file (there's already a section with un-loading macros). If it's already there just paste the `CUTTER_ACTION` Macro there
