@@ -26,5 +26,5 @@ All mods should follow the [mod submission rules](https://github.com/VoronDesign
 You don't have to be fancy with the Readme, add a little description, BOM, some images and if needed some assembly instructions. You can find a template [here](https://github.com/kevinakasam/ERCF_Filament_Cutter/edit/main/Doc/template.md). 
 
 
-## Submitting a PR
-If you have no clue how to submit a Pull Request on GitHub watch [this video](https://www.youtube.com/watch?v=SIk1rbdL4FU) or ask me on Discord ;) 
+## Pull requests, WHAT?
+It's not a problem in case you don't know how all the GitHub stuff works! Hit BioKeks up on discord, we will find a solution ;)
