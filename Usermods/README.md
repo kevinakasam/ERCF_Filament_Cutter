@@ -27,4 +27,4 @@ You don't have to be fancy with the Readme, add a little description, BOM, some 
 
 
 ## Pull requests, WHAT?
-It's not a problem in case you don't know how all the GitHub stuff works! Hit BioKeks up on discord, we will find a solution ;)
+It's not a problem in case you don't know how all the GitHub stuff works! Hit BioKeks up on Discord, we will find a solution ;)
