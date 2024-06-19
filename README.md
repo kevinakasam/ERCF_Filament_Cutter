@@ -73,7 +73,8 @@ The assembly process is straightforward; I’ve tried my best to keep it simple.
 ## Firmware
 <table>
 <tr>
-<td width=20%><img src="https://github.com/moggieuk/Happy-Hare/raw/main/doc/happy_hare_logo.jpg" alt='KlipperScreen'></td>
+<td width=20%><img src="https://raw.githubusercontent.com/wiki/moggieuk/Happy-Hare/resources/happy_hare_logo.jpg" alt='HHv2'></td>
+
 <td>
 EREC uses the awesome Happy Hare firmware for the ERCF. I'm sure this also works with the stock macros, but I haven't tried that. In addition, the Happy Hare <code>[mmu_servo]</code> works a lot better than the stock <code>[servo]</code> from Klipper.
 
