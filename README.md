@@ -11,18 +11,19 @@
 
 
 
-### Attention!
+### Attention! 
 <strong> I’m not an expert and 3D printing is just my hobby. So please be careful when you build this mod and don’t just go ahead. All parts are tested and working. But everybody bears the risks of a modification him/herself! I'm not responsible if any harm occurs, so be careful, especially with the knife! </strong>
 
-## Overview
+## Overview 
 
 **[EREC](#erec)**<br>
 **[BOM](#bom)**<br>
 **[Assembly](#assembly)**<br>
 **[Firmware](#firmware)**<br>
+**[Changelog](#changelog)**<br>
 **[Showroom](#user-print-showroom)**<br>
 **[Acknowledgements](#acknowledgements)**<br>
-**[Changelog](#changelog)**<br>
+
 ## EREC
 
 This is a simple filament cutter for the awesome ERCF so tip tuning is less important.
@@ -35,14 +36,15 @@ I never thought about a filament cutter untill I saw the [Filametrix](https://gi
 #### Current Status
 Considering my other ongoing [projects](https://kevinakasam.com/), I’ve decided to appoint u/[BioKeks](https://github.com/BioCookieYT) as the new primary contributor to this project. Don’t worry, I’m not completely stepping away, but if you have any questions, feel free to ask u/[BioKeks](https://github.com/BioCookieYT)!
 <br>
-<img src="Images/EREC_Beta6.png" width=100%>
+<br>
+<img src="Images/EREC_Beta7.png" width=130%>
 
 
 
 ## BOM
 <table>
 <tr>
-<td width=40%><img src="Images/EREC_Hardware.png" alt='KlipperScreen'></td>
+<td width=25%><img src="Images/EREC_Hardware.png" alt='KlipperScreen'></td>
 <td>
 You can find the EREC BOM here. Make sure to gather all the required hardware before starting the assembly process ;)
 <p>
@@ -108,9 +110,7 @@ EREC has undergone a long development process. Feel free to visit older revision
 
 
 
-## Showroom 
-
-
+## Showroom
  <img src="Images/Cutter1.jpg" width=49% >  <img src="Images/Cutter2.jpg" width=49% >
 
  #### Cutter Action:
