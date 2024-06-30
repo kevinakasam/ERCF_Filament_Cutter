@@ -58,7 +58,7 @@ Considering my other ongoing [projects](https://kevinakasam.com/), I’ve decide
 <table>
 <tr>
 <td>
-The assembly process is straightforward; I’ve tried my best to keep it simple. If you need any help, feel free to join our discord server. 
+The assembly process is straightforward; I’ve tried my best to keep it simple. For the wiring connect the servo to a free [STPx] pin on the BTT MMB and use a buck convertor to power the servo. (DON'T FORGET TO ADJUST THE VOLTAGE OF THE CONVERTER BEFORE CONNECTING THE SERVO!) If you need any help, feel free to join our discord server. 
 <p>
 
 [Assembly](Doc/EREC_Assembly.pdf) &nbsp;&nbsp; [Discord Server](https://discord.gg/Jw4frr64yV) &nbsp;&nbsp; [Discord Channel Link](https://discord.com/channels/964441223169449984/1169733100700434543)
