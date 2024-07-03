@@ -85,6 +85,14 @@ EREC uses the awesome Happy Hare firmware for the ERCF. I'm sure this also works
 </tr>
 </table>
 
+#### Support for the Older ERCF software ERCF-Software-V3
+For people still using the original ERCF-Software-V3, the older Enraged Rabbit software and not ready to upgrade to Happy Hare yet, unfortunately the cutter feature is not supported, because cutter need some new API/macro the older software doesn't have or not exposed.
+
+However, this fork/branch of the ERCF software V3 has some additional work done especially for this ERCF cutter, so it can support this feature.
+Sample config files are also available for easy configuration.
+
+[special edition of ERCF-Software-V3 for ERCF cutter ](https://github.com/ntchris/ERCF-Software-V3)
+
 <br>
 
 ## Acknowledgements
