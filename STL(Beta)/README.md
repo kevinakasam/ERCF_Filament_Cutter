@@ -7,6 +7,6 @@ Ensure your printer is well-tuned. Basic settings like EM, PA, and shrinkage sho
 - 5 top/bottom layers
 - 0.20mm layer height except:
 
-### `0.16mm [a] Cutter_Arm_With_Supports.stl`
+### `0.16mm [a] Cutter_Arm_XXX.stl`
 - **Layer height: 0.16mm!!!**  
   The built-in supports won't work properly if printed with a 0.20mm layer height.
