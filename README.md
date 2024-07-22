@@ -37,7 +37,7 @@ I never thought about a filament cutter untill I saw the [Filametrix](https://gi
 Considering my other ongoing [projects](https://kevinakasam.com/), I’ve decided to appoint u/[BioKeks](https://github.com/BioCookieYT) as the new primary contributor to this project. Don’t worry, I’m not completely stepping away, but if you have any questions, feel free to ask u/[BioKeks](https://github.com/BioCookieYT)!
 <br>
 <br>
-<img src="Images/EREC_Beta7.png" width=130%>
+<img src="Images/EREC_Beta7.png" width=100%>
 
 
 
