@@ -130,6 +130,6 @@ Thanks to...
 -	[HooiiooH](https://github.com/HooiiooH) and  [WiggyWooSaa](https://www.printables.com/de/@WiggyWooSaa_207419) – Thanks for the amazing mod ideas for Beta7 <3
 -	[jmillerfo](https://www.printables.com/de/@jmillerfo_84104) – Unofficial developer of EREC Beta6.5 ;p, thanks a lot for some design ideas!
 -	[jckennell](https://www.printables.com/de/@jckennell_470501) – Maker of the original Tip collector ;)
--	[ntchris](https://github.com/ntchris) – Thanks for making EREC compatible with ERCF-Software-V2
+-	[ntchris](https://github.com/ntchris) – Thanks for making EREC compatible with ERCF-Software-V3
 
 And of course thanks to [EtteGit](https://github.com/EtteGit) and the amazing ERCFV2 Team for the awesome [EnragedRabbitProject](https://github.com/EtteGit/EnragedRabbitProject)!
