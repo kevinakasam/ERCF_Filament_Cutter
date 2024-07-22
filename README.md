@@ -20,9 +20,9 @@
 **[BOM](#bom)**<br>
 **[Assembly](#assembly)**<br>
 **[Firmware](#firmware)**<br>
-**[Changelog](#changelog)**<br>
-**[Showroom](#user-print-showroom)**<br>
-**[Acknowledgements](#acknowledgements)**<br>
+**[Changelog](#Changelog_&_Archive)**<br>
+**[Showroom](#Showroom)**<br>
+**[Acknowledgements](#Acknowledgements)**<br>
 
 ## EREC
 
@@ -44,16 +44,15 @@ Considering my other ongoing [projects](https://kevinakasam.com/), I’ve decide
 ## BOM
 <table>
 <tr>
-<td width=25%><img src="Images/EREC_Hardware.png" alt='KlipperScreen'></td>
+<td width=25%><img src="Images/EREC_Hardware.png" alt='EREC_Hardware'></td>
 <td>
 You can find the EREC BOM here. Make sure to gather all the required hardware before starting the assembly process ;)
 <p>
 
-[BOM](Doc/Firmware.md) 
+[BOM](Doc/BOM.md) 
 </td>
 </tr>
 </table>
-
 <br>
 
 ## Assembly 
@@ -78,11 +77,9 @@ The assembly process is straightforward; I’ve tried my best to keep it simple.
 <tr>
 <td width=20%><img src="https://github.com/moggieuk/Happy-Hare/wiki/resources/happy_hare_logo.jpg" alt='KlipperScreen'></td>
 <td>
-EREC uses the awesome Happy Hare firmware for the ERCF. I'm sure this also works with the stock macros, but I haven't tried that. In addition, the Happy Hare <code>[mmu_servo]</code> works a lot better than the stock <code>[servo]</code> from Klipper.
+EREC uses HappyHareV2 as its firmware. Thanks to maggieuk, you can enjoy easy integration as a third-party addon. For people using still ERCF-Software-V3, you can try the fork from u/ntchris. 
 
-<p>
-
-[Macros](Doc/Firmware.md) &nbsp;&nbsp; [Happy Hare](https://github.com/moggieuk/Happy-Hare/blob/main/doc/ercf_v2.md)
+ [Happy Hare](https://github.com/moggieuk/Happy-Hare/wiki/Addon-Feature-Setup#---erec-filament-cutter) &nbsp;&nbsp; [ERCF-Software-V3 Fork](https://github.com/ntchris/ERCF-Software-V3)
 </td>
 </tr>
 </table>
@@ -90,8 +87,7 @@ EREC uses the awesome Happy Hare firmware for the ERCF. I'm sure this also works
 <br>
 
 
-## Changelog & Archive 
-
+## Changelog & Archive
 <table>
 <tr>
 <td>
@@ -110,25 +106,30 @@ EREC has undergone a long development process. Feel free to visit older revision
 
 
 
-## Showroom
- <img src="Images/Cutter1.jpg" width=49% >  <img src="Images/Cutter2.jpg" width=49% >
 
- #### Cutter Action:
- 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=-_qIqNOiTIw
-" target="_blank"><img src="Images/yt.png" 
-alt="Cutter Preview" width="32%" border="10" /></a> 
+## Showroom
+ <img src="Images/Cutter3.jpg" width=30%>
+
+ #### Cutter Action (old version 😉):
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=-_qIqNOiTIw" target="_blank">
+  <img src="Images/yt.png" alt="Cutter Preview" width="32%" style="border: 10px solid;">
+</a>
+
 
 
 ## Acknowledgements
 Thanks to...
 
-* [BioKeks](https://github.com/BioCookieYT) for tinkering with me! Luckily we both got the ERCF roughly at the same time :D
 
-* [xF4m3](https://github.com/xF4m3) for the Macro help!
-
-* [sorted01](https://github.com/sorted01) for the idea with the cutter!
-
-* [moggieuk](https://github.com/moggieuk) for the [awesome firmware](https://github.com/moggieuk/Happy-Hare/tree/23604442613be6bbbc8c70f57ff55fe65b1268e4) and the quick help on the Voron Discord!
+-	[KevinAkaSam](https://kevinakasam.com/) – The magic guy who developed the first concept of EREC!
+-	[BioKeks](https://github.com/BioCookieYT) – Developer of EREC Beta6 and Beta7
+-	[xF4m3](https://github.com/xF4m3) – Thanks for helping with the Macros and tinkering with us
+-	[sorted01](https://github.com/sorted01) – The guy behind Filametrix, thanks for the idea with the cutter!
+-	[moggieuk](https://github.com/moggieuk) – Thanks a lot for awesome firmware and the quick help on the Voron Discord!
+-	[HooiiooH](https://github.com/HooiiooH) and  [WiggyWooSaa](https://www.printables.com/de/@WiggyWooSaa_207419) – Thanks for the amazing mod ideas for Beta7 <3
+-	[jmillerfo](https://www.printables.com/de/@jmillerfo_84104) – Unofficial developer of EREC Beta6.5 ;p, thanks a lot for some design ideas!
+-	[jckennell](https://www.printables.com/de/@jckennell_470501) – Maker of the original Tip collector ;)
+-	[ntchris](https://github.com/ntchris) – Thanks for making EREC compatible with ERCF-Software-V2
 
 And of course thanks to [EtteGit](https://github.com/EtteGit) and the amazing ERCFV2 Team for the awesome [EnragedRabbitProject](https://github.com/EtteGit/EnragedRabbitProject)!
