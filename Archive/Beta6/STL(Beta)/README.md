@@ -1,0 +1,1 @@
+Note: Beta6 no longer supports ERCFV1, please use instead [Beta5]([https://github.com/kevinakasam/ERCF_Filament_Cutter/tree/main/Archive/STLs/ERCF%20V1.0) or try out this mod https://github.com/kevinakasam/ERCF_Filament_Cutter/issues/12 😉

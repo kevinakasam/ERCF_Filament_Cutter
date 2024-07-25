@@ -1,3 +1,6 @@
+#
+# Beta 6.0 Mod! You can find the official tip collector based on this mod in the STLs. 
+
 # EREC Tip Collector - jckennell 🥕
 This is a simple deflector shroud and catch tray for filament tips cut off by the Enraged Rabbit Encoder Cutter.
 
