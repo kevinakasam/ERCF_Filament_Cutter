@@ -63,7 +63,7 @@ You can find the EREC BOM here. Make sure to gather all the required hardware be
 The assembly process is straightforward; I’ve tried my best to keep it simple. If you need any help, feel free to join our discord server. 
 <p>
 
-[Documentation](Doc/EREC_Assembly.pdf) &nbsp;&nbsp; [Discord Server](https://discord.gg/Jw4frr64yV) &nbsp;&nbsp; [Discord Channel Link](https://discord.com/channels/964441223169449984/1169733100700434543)
+[Documentation](Doc/EREC_BETA7.pdf) &nbsp;&nbsp; [Discord Server](https://discord.gg/Jw4frr64yV) &nbsp;&nbsp; [Discord Channel Link](https://discord.com/channels/964441223169449984/1169733100700434543)
 <td width=35%><img src="Images/Assembly.png"></td>
 </td>
 
@@ -94,7 +94,7 @@ EREC uses HappyHareV2 as its firmware. Thanks to maggieuk, you can enjoy easy in
 EREC has undergone a long development process. Feel free to visit older revisions if you wish to explore its history 🥕
 <p>
 
-[Changelog](Doc/Changelog.md) &nbsp;&nbsp; [Archive](https://discord.gg/Jw4frr64yV) 
+[Changelog](Doc/Changelog.md) &nbsp;&nbsp; [Archive]([https://discord.gg/Jw4frr64yV](https://github.com/kevinakasam/ERCF_Filament_Cutter/tree/main/Archive)) 
 <td width=25%><img src="Images/Cutter2.jpg"></td>
 </td>
 
