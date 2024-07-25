@@ -94,7 +94,7 @@ EREC uses HappyHareV2 as its firmware. Thanks to maggieuk, you can enjoy easy in
 EREC has undergone a long development process. Feel free to visit older revisions if you wish to explore its history 🥕
 <p>
 
-[Changelog](Doc/Changelog.md) &nbsp;&nbsp; [Archive]([https://discord.gg/Jw4frr64yV](https://github.com/kevinakasam/ERCF_Filament_Cutter/tree/main/Archive)) 
+[Changelog](Doc/Changelog.md) &nbsp;&nbsp; [Archive](https://github.com/kevinakasam/ERCF_Filament_Cutter/tree/main/Archive) 
 <td width=25%><img src="Images/Cutter2.jpg"></td>
 </td>
 
