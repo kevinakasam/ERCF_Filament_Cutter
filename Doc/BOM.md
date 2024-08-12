@@ -1,4 +1,20 @@
-# EREC - BOM 🥕 
+# EREC - KITs 🥕
+
+As EREC has gained popularity, some vendors have started offering kits, making it much easier to source parts. 😉
+
+### Official Tested Kits:
+- Seleadlab Store - [Link](https://s.click.aliexpress.com/e/_opGhKz5 ) <br>
+<img src="https://ae01.alicdn.com/kf/S826218643c464dadb3f502753e42d672H.png" width="10%">
+<br><br>
+
+
+
+<strong> Disclaimer:</strong> The kits are provided by third-party vendors, and I do not endorse or guarantee their quality, safety, or compliance with any legal standards. Any issues or disputes arising from the purchase or use of these kits should be addressed directly with the respective vendor. By using these kits, you acknowledge that I am solely the designer of EREC and not involved in the manufacturing, distribution, or sale of these products.
+<br><br>
+
+<strong> Affiliate Disclosure: </strong> Some of the links in this README are affiliate links. This means that if you click on a link and purchase a product, I may receive a commission at no additional cost to you. This helps support my work on EREC.
+
+# BOM 🥕 
 
 
 | Qty | Part                             | Description                                                                                                                                                                                                                         |
