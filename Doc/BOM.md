@@ -3,7 +3,7 @@
 As EREC has gained popularity, some vendors have started offering kits, making it much easier to source parts. 😉
 
 ### Official Tested Kits:
-- Seleadlab Store - [Link](https://s.click.aliexpress.com/e/_opGhKz5 ) <br>
+- Seleadlab Store - [Link](https://s.click.aliexpress.com/e/_opGhKz5 ) (Affiliate) <br> 
 <img src="https://ae01.alicdn.com/kf/S826218643c464dadb3f502753e42d672H.png" width="10%">
 <br><br>
 
