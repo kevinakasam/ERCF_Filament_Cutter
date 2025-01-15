@@ -131,5 +131,6 @@ Thanks to...
 -	[jmillerfo](https://www.printables.com/de/@jmillerfo_84104) – Unofficial developer of EREC Beta6.5 ;p, thanks a lot for some design ideas!
 -	[jckennell](https://www.printables.com/de/@jckennell_470501) – Maker of the original Tip collector ;)
 -	[ntchris](https://github.com/ntchris) – Thanks for making EREC compatible with ERCF-Software-V3
+-	[comnmnor](https://github.com/nnaapp) - Thanks a lot for making EREC compatible with [Night Owl](https://github.com/kevinakasam/ERCF_Filament_Cutter/tree/main/Usermods/EREC%20For%20Nightowl)
 
 And of course thanks to [EtteGit](https://github.com/EtteGit) and the amazing ERCFV2 Team for the awesome [EnragedRabbitProject](https://github.com/EtteGit/EnragedRabbitProject)!
